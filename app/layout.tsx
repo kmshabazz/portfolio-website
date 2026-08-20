@@ -4,14 +4,24 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
+const title = "Kalifa Shabazz | Analytics Platform, Measurement & Growth Systems";
+const description = "Kalifa Shabazz works across measurement, marketing analytics, performance marketing, attribution, and full-funnel growth systems across enterprise and ecommerce environments.";
+
 export const metadata: Metadata = {
-  title: "Kalifa Shabazz | Analytics Platform, Measurement & Growth Systems",
-  description: "Senior analytics platform and measurement operator building reliable measurement, attribution, analytics engineering, and growth systems.",
+  title,
+  description,
   metadataBase: new URL("https://kalifashabazz.com"),
   openGraph: {
-    title: "Kalifa Shabazz | Analytics Platform, Measurement & Growth Systems",
-    description: "Building measurement systems teams can trust, and growth systems they can scale.",
-    type: "website"
+    title,
+    description,
+    type: "website",
+    url: "https://kalifashabazz.com",
+    siteName: "Kalifa Shabazz"
+  },
+  twitter: {
+    card: "summary",
+    title,
+    description
   }
 };
 

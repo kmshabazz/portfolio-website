@@ -21,7 +21,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
     <main>
       <section className="grid-lines border-b border-white/8">
         <div className="mx-auto max-w-6xl px-6 py-20 lg:px-10 lg:py-28">
-          <Link href="/#work" className="text-sm text-zinc-500 hover:text-white">← Back to selected work</Link>
+          <Link href="/#work" className="text-sm text-zinc-500 hover:text-white">Back to selected work</Link>
           <p className="kicker mb-6 mt-14">Case Study {study.number} · {study.eyebrow}</p>
           <h1 className="max-w-5xl text-5xl font-semibold tracking-[-.055em] sm:text-7xl lg:text-8xl">{study.title}</h1>
           <p className="mt-7 max-w-3xl text-lg leading-8 text-zinc-400 sm:text-xl">{study.summary}</p>
@@ -46,9 +46,12 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
 
       <section className="mx-auto max-w-6xl px-6 pb-24 lg:px-10 lg:pb-32">
         <div className="space-y-16">
-          {sections.map(([title, items], sectionIndex) => (
-            <div key={title} className="grid gap-8 border-t border-white/10 pt-10 lg:grid-cols-[.55fr_1.45fr]">
-              <div><span className="text-xs font-semibold text-zinc-600">0{sectionIndex + 1}</span><h2 className="mt-3 text-2xl font-semibold tracking-[-.03em]">{title}</h2></div>
+          {sections.map(([sectionTitle, items], sectionIndex) => (
+            <div key={sectionTitle} className="grid gap-8 border-t border-white/10 pt-10 lg:grid-cols-[.55fr_1.45fr]">
+              <div>
+                <span className="text-xs font-semibold text-zinc-600">0{sectionIndex + 1}</span>
+                <h2 className="mt-3 text-2xl font-semibold tracking-[-.03em]">{sectionTitle}</h2>
+              </div>
               <div className="space-y-4">
                 {items.map((item) => <div key={item} className="panel rounded-2xl p-5 leading-7 text-zinc-300 sm:p-6">{item}</div>)}
               </div>
@@ -59,7 +62,10 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
 
       <section className="border-t border-white/8 px-6 py-20 lg:px-10">
         <div className="mx-auto flex max-w-6xl flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-          <div><p className="kicker mb-3">Next</p><h2 className="text-3xl font-semibold tracking-[-.04em]">Explore more selected work.</h2></div>
+          <div>
+            <p className="kicker mb-3">Next</p>
+            <h2 className="text-3xl font-semibold tracking-[-.04em]">Explore more selected work.</h2>
+          </div>
           <Link href="/#work" className="rounded-full bg-[#b8f36b] px-6 py-3 text-sm font-semibold text-[#090b0d]">View all case studies</Link>
         </div>
       </section>
