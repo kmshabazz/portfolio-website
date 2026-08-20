@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #08090b;
+  --panel: #111318;
+  --panel-2: #171a20;
+  --text: #f4f4ef;
+  --muted: #a6acb8;
+  --line: #292d36;
+  --accent: #b8f36b;
+  --accent-soft: rgba(184, 243, 107, 0.12);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(184, 243, 107, 0.08), transparent 28rem),
+    radial-gradient(circle at 85% 20%, rgba(107, 166, 243, 0.06), transparent 24rem),
+    var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--accent); color: #0b0d0f; }
+a { color: inherit; text-decoration: none; }
+.grid-lines {
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.kicker {
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  font-size: .72rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.text-balance { text-wrap: balance; }
+.panel {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255,255,255,.025), rgba(255,255,255,.012));
+}
+.arrow { transition: transform .2s ease; }
+a:hover .arrow { transform: translate(3px, -3px); }
