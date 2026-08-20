@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://kalifashabazz.com"),
   openGraph: {
     title: "Kalifa Shabazz | Analytics Platform, Measurement & Growth Systems",
-    description: "Building measurement systems teams can trust — and growth systems they can scale.",
+    description: "Building measurement systems teams can trust, and growth systems they can scale.",
     type: "website"
   }
 };

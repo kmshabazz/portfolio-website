@@ -11,10 +11,10 @@ const capabilities = [
 ];
 
 const experience = [
-  ["2023 — Present", "Live Nation Entertainment", "Senior Analytics Platform & Measurement Analyst", "Enterprise analytics platform operations across GA4/GTM, BigQuery, Databricks, attribution, experimentation, data quality, and governance."],
+  ["2023 to Present", "Live Nation Entertainment", "Senior Analytics Platform & Measurement Analyst", "Enterprise analytics platform operations across GA4/GTM, BigQuery, Databricks, attribution, experimentation, data quality, and governance."],
   ["2022", "Strategic Education, Inc.", "Senior Web Analytics Analyst", "Web analytics strategy across Adobe Analytics, Power BI, SEM, SEO, digital experience, and campaign measurement."],
-  ["2020 — 2022", "Honeywell", "Senior Web Analytics Analyst", "Web analytics SME supporting tagging, experimentation, ecommerce measurement, and self-service reporting."],
-  ["2015 — 2022", "KM & Company", "Founder & Analytics Consultant", "Full-stack digital analytics and growth measurement for ecommerce, paid media, and multi-platform revenue tracking."]
+  ["2020 to 2022", "Honeywell", "Senior Web Analytics Analyst", "Web analytics SME supporting tagging, experimentation, ecommerce measurement, and self-service reporting."],
+  ["2015 to 2022", "KM & Company", "Founder & Analytics Consultant", "Full-stack digital analytics and growth measurement for ecommerce, paid media, and multi-platform revenue tracking."]
 ];
 
 const repos = [
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-10 lg:py-40">
           <p className="kicker mb-7">Analytics Platform · Measurement · Growth Systems</p>
           <h1 className="text-balance max-w-6xl text-5xl font-semibold leading-[.98] tracking-[-.055em] sm:text-7xl lg:text-[6.4rem]">
-            I build measurement systems teams can trust <span className="text-zinc-500">— and growth systems they can scale.</span>
+            I build measurement systems teams can trust <span className="text-zinc-500">and growth systems they can scale.</span>
           </h1>
           <p className="mt-9 max-w-3xl text-lg leading-8 text-zinc-400 sm:text-xl">
             Senior Analytics Platform & Measurement Analyst operating across GA4, GTM, BigQuery, Databricks, attribution, analytics QA, paid media measurement, and full-funnel growth.
@@ -46,10 +46,10 @@ export default function Home() {
       <section className="border-b border-white/8">
         <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-white/8 px-6 lg:grid-cols-4 lg:px-10">
           {[
-            ["20–50%", "improvement in conversion tracking accuracy"],
+            ["20 to 50%", "improvement in conversion tracking accuracy"],
             ["18+", "brands across enterprise, agency, DTC & nonprofit"],
             ["20+", "successful GA4 migrations delivered"],
-            ["Full-funnel", "measurement from signal → revenue"]
+            ["Full-funnel", "measurement from signal to revenue"]
           ].map(([value, label]) => (
             <div key={value} className="min-h-40 px-5 py-8 first:pl-0 lg:min-h-48 lg:px-8 lg:py-10">
               <div className="text-3xl font-semibold tracking-[-.04em] sm:text-4xl">{value}</div>

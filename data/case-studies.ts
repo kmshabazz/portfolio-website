@@ -21,7 +21,7 @@ export const caseStudies: CaseStudy[] = [
     title: "Restore trust in your data.",
     shortTitle: "Conversion Tracking Repair",
     summary: "Rebuilt a fragmented conversion measurement system so analytics, CRM, and paid media platforms could be used for confident optimization.",
-    impact: "20–50% improvement in conversion tracking accuracy",
+    impact: "20 to 50% improvement in conversion tracking accuracy",
     businessImpact: "Restored leadership confidence and enabled more reliable paid media decisions.",
     stack: ["GA4", "GTM", "Meta Pixel", "CAPI", "GHL", "Attribution"],
     challenge: [
@@ -37,7 +37,7 @@ export const caseStudies: CaseStudy[] = [
       "Implemented web and server-side deduplication logic."
     ],
     outcome: [
-      "Improved conversion tracking accuracy by 20–50%.",
+      "Improved conversion tracking accuracy by 20 to 50%.",
       "Re-established confidence in analytics and paid media reporting.",
       "Enabled more dependable optimization and spend decisions.",
       "Created a cleaner foundation for ongoing growth."
@@ -75,8 +75,8 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "shabazz-seafood-growth",
     number: "03",
-    eyebrow: "Shabazz Seafood · Local → National",
-    title: "Zero → Netflix.",
+    eyebrow: "Shabazz Seafood · Local to National",
+    title: "Zero to Netflix.",
     shortTitle: "Shabazz Seafood Growth System",
     summary: "Built the digital marketing and measurement foundation for a local food business, turning offline demand into a measurable growth engine.",
     impact: "From no digital footprint to national visibility",
