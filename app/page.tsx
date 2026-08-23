@@ -5,7 +5,7 @@ const enterpriseExperience = [
   {
     company: "Live Nation Entertainment",
     title: "Analytics Platform, Measurement Governance & Data Quality",
-    copy: "Enterprise-scale analytics platform work spanning event architecture, GA4 and GTM governance, BigQuery and Databricks validation, analytics QA, attribution troubleshooting, measurement operations, and cross-functional work across marketing, product, engineering, and data."
+    copy: "Enterprise-scale analytics platform work spanning event architecture, GA4 and GTM governance, BigQuery and Databricks validation, analytics QA, attribution troubleshooting, AI-enabled analytics workflows, governed MCP integrations, and cross-functional work across marketing, product, engineering, and data."
   },
   {
     company: "Honeywell",
@@ -79,16 +79,16 @@ const expertise = [
     ]
   },
   {
-    title: "Data & Automation",
+    title: "AI, Data & Automation",
     role: "Technical Multiplier",
     items: [
+      "Claude Enterprise and Claude Code",
+      "MCP integrations and AI Skills",
+      "Enterprise data querying and agentic workflows",
       "BigQuery, Databricks, and SQL",
-      "Dataform and GCP",
-      "IAM and access governance",
-      "AI-assisted analytics and QA",
-      "Reporting automation",
-      "Workflow automation",
-      "Analytics documentation"
+      "Databricks Genie, Dataform, and GCP",
+      "IAM, OAuth, and PAT-based access",
+      "AI-assisted analytics, QA, and automation"
     ]
   }
 ];
@@ -98,7 +98,7 @@ const technologyStack = [
   ["Data & Engineering", "BigQuery · Databricks · SQL · Dataform"],
   ["Cloud & Governance", "GCP · IAM · OneTrust"],
   ["Performance Marketing & Ecommerce", "Meta Ads · Meta Pixel · CAPI · Google Ads · Shopify"],
-  ["AI & Automation", "ChatGPT · Claude · Databricks Genie · Copilot · automation workflows"]
+  ["AI & Automation", "Claude Enterprise · Claude Code · MCP · AI Skills · Databricks Genie · ChatGPT · Copilot · agentic workflows"]
 ];
 
 export default function Home() {
@@ -206,7 +206,7 @@ export default function Home() {
           <div className="mb-12 max-w-4xl">
             <p className="kicker mb-4">Expertise</p>
             <h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Capabilities first. Tools second.</h2>
-            <p className="mt-5 text-lg leading-8 text-zinc-400">Measurement and analytics form the foundation. Performance marketing drives acquisition. Growth systems connect the full funnel. Data, cloud, and automation multiply the operating leverage.</p>
+            <p className="mt-5 text-lg leading-8 text-zinc-400">Measurement and analytics form the foundation. Performance marketing drives acquisition. Growth systems connect the full funnel. AI, data, cloud, and automation multiply the operating leverage.</p>
           </div>
           <div className="grid gap-5 lg:grid-cols-2">
             {expertise.map((group) => (
@@ -227,7 +227,7 @@ export default function Home() {
           </div>
           <div className="mt-5 rounded-3xl border border-white/10 bg-[#0c0e12] p-7 sm:p-8">
             <p className="kicker mb-3">AI & Analytics Automation</p>
-            <p className="max-w-5xl text-lg leading-8 text-zinc-300">Applying generative AI and automation to analytics workflows including reporting, documentation, QA, investigation, creative workflows, and decision support.</p>
+            <p className="max-w-5xl text-lg leading-8 text-zinc-300">Building AI-enabled analytics workflows using Claude Enterprise, Claude Code, reusable AI Skills, and MCP integrations to query governed enterprise data, support QA and investigation, automate documentation and reporting, and connect AI assistants to analytics platforms securely. Experience includes OAuth and PAT-based access, Databricks Genie, Google Cloud, and agentic workflow design.</p>
           </div>
         </div>
       </section>
