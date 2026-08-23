@@ -139,7 +139,7 @@ export const caseStudies: CaseStudy[] = [
     summary: "Built a full funnel DTC operating system spanning positioning, paid acquisition, creative testing, attribution, lifecycle, and conversion analysis.",
     impact: "2.18x first profitable ROAS",
     businessImpact: "Connected paid media, offer strategy, analytics, and lifecycle decisions into one measurable growth system.",
-    stack: ["Shopify", "Meta Ads", "Google Ads", "GA4", "Email/SMS", "Attribution"],
+    stack: ["Shopify", "Meta Ads", "Google Ads", "GA4", "Higgsfield", "MCP", "AI Skills", "Attribution"],
     challenge: [
       "No defined brand intelligence, customer avatar, or differentiation mechanism.",
       "Meta and Google Ads needed to be built from scratch with no conversion history.",
@@ -149,8 +149,9 @@ export const caseStudies: CaseStudy[] = [
     approach: [
       "Developed customer avatar, positioning, messaging, and offer frameworks.",
       "Built Meta paid acquisition strategy, campaign structure, and creative testing systems.",
-      "Structured Google Ads, cross-channel attribution, and Shopify funnel analysis.",
-      "Connected paid acquisition, lifecycle email and SMS, CRO, and retention into one operating system."
+      "Used Meta and Higgsfield MCP workflows to create, test, and iterate ad creative tied to campaign strategy and performance signals.",
+      "Built reusable AI Skills, prompts, and workflow instructions in GitHub repositories to standardize creative production and marketing execution.",
+      "Structured Google Ads, cross-channel attribution, Shopify funnel analysis, lifecycle email and SMS, CRO, and retention into one operating system."
     ],
     outcome: [
       "Produced a first profitable Meta ad set at 2.18x ROAS.",
