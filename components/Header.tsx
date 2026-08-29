@@ -11,6 +11,7 @@ export function Header() {
         <nav className="flex items-center gap-4 text-sm text-zinc-300 sm:gap-7">
           <Link href="/#about" className="hidden hover:text-white sm:inline">About</Link>
           <Link href="/#work" className="hover:text-white">Work</Link>
+          <Link href="/insights" className="hover:text-white">Insights</Link>
           <Link href="/#expertise" className="hidden hover:text-white sm:inline">Expertise</Link>
           <Link href="/#contact" className="rounded-full border border-white/15 px-4 py-2 font-medium text-white hover:border-[#b8f36b]/60 hover:bg-[#b8f36b]/10">Contact</Link>
         </nav>
