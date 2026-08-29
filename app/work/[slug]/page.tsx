@@ -1,9 +1,25 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { caseStudies, getCaseStudy } from "@/data/case-studies";
 
 export function generateStaticParams() {
   return caseStudies.map((study) => ({ slug: study.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const study = getCaseStudy(slug);
+  if (!study) return {};
+  const url = `https://kalifashabazz.com/work/${study.slug}`;
+  const title = `${study.shortTitle} Case Study`;
+  return {
+    title,
+    description: study.summary,
+    alternates: { canonical: url },
+    openGraph: { title: `${title} | Kalifa Shabazz`, description: study.summary, url, type: "article", siteName: "Kalifa Shabazz" },
+    twitter: { card: "summary", title: `${title} | Kalifa Shabazz`, description: study.summary }
+  };
 }
 
 export default async function WorkPage({ params }: { params: Promise<{ slug: string }> }) {
