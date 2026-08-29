@@ -20,69 +20,17 @@ const enterpriseExperience = [
 ];
 
 const solveAreas = [
-  {
-    title: "Untrusted Data",
-    copy: "I trace discrepancies across analytics, ad platforms, CRM systems, Shopify, and reporting to restore reliable measurement."
-  },
-  {
-    title: "Paid Media Without Full Funnel Visibility",
-    copy: "I connect ad spend to customer behavior, conversion, attribution, and revenue so teams can evaluate true performance."
-  },
-  {
-    title: "Fragmented Growth Systems",
-    copy: "I connect acquisition, analytics, funnel performance, lifecycle, and reporting into one measurable growth system."
-  },
-  {
-    title: "Manual Analytics Operations",
-    copy: "I use AI, automation, and reusable workflows to reduce repetitive QA, investigation, reporting, and documentation work."
-  }
+  { title: "Untrusted Data", copy: "I trace discrepancies across analytics, ad platforms, CRM systems, Shopify, and reporting to restore reliable measurement." },
+  { title: "Paid Media Without Full Funnel Visibility", copy: "I connect ad spend to customer behavior, conversion, attribution, and revenue so teams can evaluate true performance." },
+  { title: "Fragmented Growth Systems", copy: "I connect acquisition, analytics, funnel performance, lifecycle, and reporting into one measurable growth system." },
+  { title: "Manual Analytics Operations", copy: "I build reusable AI Skills, MCP integrations, and governed workflows that reduce repetitive QA, investigation, reporting, and documentation work." }
 ];
 
 const expertise = [
-  {
-    title: "Measurement & Analytics",
-    role: "Foundation",
-    items: [
-      "Measurement architecture and event taxonomy",
-      "GA4/GTM governance and analytics QA",
-      "Attribution and funnel analysis",
-      "Data quality and metric definitions",
-      "Privacy-aligned measurement and reconciliation"
-    ]
-  },
-  {
-    title: "Performance Marketing",
-    role: "Acquisition",
-    items: [
-      "Meta Ads and Google Ads strategy",
-      "Creative testing systems",
-      "Paid acquisition optimization",
-      "Measurement-led budget decisions",
-      "Paid media and revenue analysis"
-    ]
-  },
-  {
-    title: "Growth Systems",
-    role: "Full Funnel",
-    items: [
-      "Funnel strategy and CRO",
-      "Shopify funnel analysis",
-      "Offer architecture",
-      "Lifecycle email and SMS",
-      "Retention, experimentation, and revenue visibility"
-    ]
-  },
-  {
-    title: "AI, Data & Automation",
-    role: "Technical Multiplier",
-    items: [
-      "Claude Enterprise, Claude Code, and AI Skills",
-      "MCP integrations and agentic workflows",
-      "Enterprise data querying and AI-assisted QA",
-      "BigQuery, Databricks, SQL, Dataform, and GCP",
-      "IAM, OAuth, PAT-based access, and workflow automation"
-    ]
-  }
+  { title: "Measurement & Analytics", role: "Foundation", items: ["Measurement architecture and event taxonomy", "GA4/GTM governance and analytics QA", "Attribution and funnel analysis", "Data quality and metric definitions", "Privacy-aligned measurement and reconciliation"] },
+  { title: "Performance Marketing", role: "Acquisition", items: ["Meta Ads and Google Ads strategy", "Creative testing systems", "Paid acquisition optimization", "Measurement-led budget decisions", "Paid media and revenue analysis"] },
+  { title: "Growth Systems", role: "Full Funnel", items: ["Funnel strategy and CRO", "Shopify funnel analysis", "Offer architecture", "Lifecycle email and SMS", "Retention, experimentation, and revenue visibility"] },
+  { title: "AI & Analytics Automation", role: "Technical Multiplier", items: ["Reusable AI Skills and standardized analytics workflows", "MCP integrations and agentic workflows", "Governed analytics querying and AI-assisted QA", "BigQuery, Databricks, SQL, Dataform, and GCP", "IAM, OAuth, PAT-based access, and workflow automation"] }
 ];
 
 const technologyStack = [
@@ -96,161 +44,31 @@ const technologyStack = [
 export default function Home() {
   return (
     <main>
-      <section className="grid-lines border-b border-white/8">
-        <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-10 lg:py-36">
-          <p className="kicker mb-7">Kalifa Shabazz · Measurement · Analytics · AI · Growth</p>
-          <h1 className="text-balance max-w-6xl text-5xl font-semibold leading-[.98] tracking-[-.055em] sm:text-7xl lg:text-[6rem]">
-            Analytics Platform · Measurement · Growth Systems
-          </h1>
-          <p className="mt-9 max-w-4xl text-lg leading-8 text-zinc-300 sm:text-xl sm:leading-9">
-            I build trusted measurement and AI-enabled analytics systems that connect acquisition, customer behavior, attribution, conversion, and revenue.
-          </p>
-          <p className="mt-6 max-w-5xl text-sm font-semibold leading-7 text-zinc-500 sm:text-base">
-            Measurement Architecture · Marketing Analytics · Attribution · Performance Marketing · Growth Analytics · AI Automation
-          </p>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <a href="#work" className="rounded-full bg-[#b8f36b] px-6 py-3 text-sm font-semibold text-[#0a0b0d] hover:brightness-110">View Selected Work</a>
-            <a href="#expertise" className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold hover:bg-white/5">Explore Expertise</a>
-            <a href="#contact" className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold hover:bg-white/5">Contact Me</a>
-          </div>
-        </div>
-      </section>
+      <section className="grid-lines border-b border-white/8"><div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-10 lg:py-36">
+        <p className="kicker mb-7">Kalifa Shabazz · Measurement · Analytics · AI · Growth</p>
+        <h1 className="text-balance max-w-6xl text-5xl font-semibold leading-[.98] tracking-[-.055em] sm:text-7xl lg:text-[6rem]">Analytics Platform · Measurement · Growth Systems</h1>
+        <p className="mt-9 max-w-4xl text-lg leading-8 text-zinc-300 sm:text-xl sm:leading-9">I build trusted measurement and AI-enabled analytics systems that connect acquisition, customer behavior, attribution, conversion, and revenue.</p>
+        <p className="mt-6 max-w-5xl text-sm font-semibold leading-7 text-zinc-500 sm:text-base">Measurement Architecture · Marketing Analytics · Attribution · Performance Marketing · Growth Analytics · AI-Enabled Operations</p>
+        <div className="mt-10 flex flex-wrap gap-3"><a href="#work" className="rounded-full bg-[#b8f36b] px-6 py-3 text-sm font-semibold text-[#0a0b0d] hover:brightness-110">View Selected Work</a><a href="#expertise" className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold hover:bg-white/5">Explore Expertise</a><a href="#contact" className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold hover:bg-white/5">Contact Me</a></div>
+      </div></section>
 
-      <section className="border-b border-white/8">
-        <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-white/8 px-6 lg:grid-cols-4 lg:px-10">
-          {[
-            ["20 to 50%", "improvement in reported conversion accuracy"],
-            ["171/171", "Google Merchant Center variants approved"],
-            ["18+", "brands and organizations supported"],
-            ["Enterprise to DTC", "measurement and growth experience"]
-          ].map(([value, label]) => (
-            <div key={value} className="min-h-40 px-5 py-8 first:pl-0 lg:min-h-48 lg:px-8 lg:py-10">
-              <div className="text-3xl font-semibold tracking-[-.04em] sm:text-4xl">{value}</div>
-              <p className="mt-3 max-w-[16rem] text-sm leading-6 text-zinc-500">{label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <section className="border-b border-white/8"><div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-white/8 px-6 lg:grid-cols-4 lg:px-10">{[["20 to 50%", "improvement in reported conversion accuracy"],["171/171", "Google Merchant Center variants approved"],["18+", "brands and organizations supported"],["Enterprise to DTC", "measurement and growth experience"]].map(([value,label]) => <div key={value} className="min-h-40 px-5 py-8 first:pl-0 lg:min-h-48 lg:px-8 lg:py-10"><div className="text-3xl font-semibold tracking-[-.04em] sm:text-4xl">{value}</div><p className="mt-3 max-w-[16rem] text-sm leading-6 text-zinc-500">{label}</p></div>)}</div></section>
 
-      <section id="enterprise" className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
-        <div className="mb-10 max-w-3xl">
-          <p className="kicker mb-4">Enterprise Experience</p>
-          <h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Platform, measurement, and performance work at scale.</h2>
-        </div>
-        <div className="grid gap-5 lg:grid-cols-3">
-          {enterpriseExperience.map((item) => (
-            <article key={item.company} className="panel rounded-3xl p-7 sm:p-8">
-              <p className="text-sm font-semibold text-[#b8f36b]">{item.company}</p>
-              <h3 className="mt-5 text-2xl font-semibold tracking-[-.03em]">{item.title}</h3>
-              <p className="mt-5 leading-7 text-zinc-400">{item.copy}</p>
-            </article>
-          ))}
-        </div>
-      </section>
+      <section id="enterprise" className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="mb-10 max-w-3xl"><p className="kicker mb-4">Enterprise Experience</p><h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Platform, measurement, and performance work at scale.</h2></div><div className="grid gap-5 lg:grid-cols-3">{enterpriseExperience.map(item => <article key={item.company} className="panel rounded-3xl p-7 sm:p-8"><p className="text-sm font-semibold text-[#b8f36b]">{item.company}</p><h3 className="mt-5 text-2xl font-semibold tracking-[-.03em]">{item.title}</h3><p className="mt-5 leading-7 text-zinc-400">{item.copy}</p></article>)}</div></section>
 
-      <section id="work" className="border-y border-white/8 bg-white/[.015]">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
-          <div className="mb-10 max-w-4xl">
-            <p className="kicker mb-4">Selected Work</p>
-            <h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">What I have built, fixed, and grown.</h2>
-            <p className="mt-5 text-lg leading-8 text-zinc-400">Case studies across measurement, attribution, ecommerce, paid acquisition, analytics infrastructure, AI-assisted workflows, and growth.</p>
-          </div>
-          <div className="grid gap-5 lg:grid-cols-2">
-            {caseStudies.map((study) => <CaseStudyCard key={study.slug} study={study} />)}
-          </div>
-        </div>
-      </section>
+      <section id="work" className="border-y border-white/8 bg-white/[.015]"><div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="mb-10 max-w-4xl"><p className="kicker mb-4">Selected Work</p><h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">What I have built, fixed, and grown.</h2><p className="mt-5 text-lg leading-8 text-zinc-400">Case studies across measurement, attribution, ecommerce, paid acquisition, analytics infrastructure, AI-enabled operations, and growth.</p></div><div className="grid gap-5 lg:grid-cols-2">{caseStudies.map(study => <CaseStudyCard key={study.slug} study={study} />)}</div></div></section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
-        <div className="mb-10 max-w-3xl">
-          <p className="kicker mb-4">What I Solve</p>
-          <h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">The problems I can help a team solve.</h2>
-        </div>
-        <div className="grid gap-4 md:grid-cols-2">
-          {solveAreas.map((item, index) => (
-            <article key={item.title} className="panel rounded-3xl p-7 sm:p-8">
-              <span className="text-xs font-semibold text-zinc-600">0{index + 1}</span>
-              <h3 className="mt-6 text-xl font-semibold">{item.title}</h3>
-              <p className="mt-3 leading-7 text-zinc-400">{item.copy}</p>
-            </article>
-          ))}
-        </div>
-      </section>
+      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="mb-10 max-w-3xl"><p className="kicker mb-4">What I Solve</p><h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">The problems I can help a team solve.</h2></div><div className="grid gap-4 md:grid-cols-2">{solveAreas.map((item,index) => <article key={item.title} className="panel rounded-3xl p-7 sm:p-8"><span className="text-xs font-semibold text-zinc-600">0{index+1}</span><h3 className="mt-6 text-xl font-semibold">{item.title}</h3><p className="mt-3 leading-7 text-zinc-400">{item.copy}</p></article>)}</div></section>
 
-      <section id="expertise" className="border-y border-white/8 bg-white/[.015]">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
-          <div className="mb-10 max-w-4xl">
-            <p className="kicker mb-4">Expertise</p>
-            <h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Capabilities first. Tools second.</h2>
-          </div>
-          <div className="grid gap-5 lg:grid-cols-2">
-            {expertise.map((group) => (
-              <article key={group.title} className="panel rounded-3xl p-7 sm:p-8">
-                <div className="flex items-center justify-between gap-5">
-                  <h3 className="text-2xl font-semibold tracking-[-.03em]">{group.title}</h3>
-                  <span className="text-xs font-semibold uppercase tracking-[.14em] text-[#b8f36b]">{group.role}</span>
-                </div>
-                <ul className="mt-6 grid gap-3 text-zinc-400 sm:grid-cols-2">
-                  {group.items.map((item) => <li key={item} className="border-t border-white/8 pt-3 leading-6">{item}</li>)}
-                </ul>
-              </article>
-            ))}
-          </div>
-          <div className="mt-5 grid gap-5 lg:grid-cols-2">
-            <div className="rounded-3xl border border-[#b8f36b]/20 bg-[#b8f36b]/[.06] p-7 sm:p-8">
-              <p className="kicker mb-3">Data Quality & Governance</p>
-              <p className="leading-7 text-zinc-300">Measurement standards, analytics QA, metric definitions, access controls, privacy-aligned analytics, and cross-platform reconciliation.</p>
-            </div>
-            <div className="rounded-3xl border border-white/10 bg-[#0c0e12] p-7 sm:p-8">
-              <p className="kicker mb-3">AI & Analytics Automation</p>
-              <p className="leading-7 text-zinc-300">Claude Enterprise, Claude Code, reusable AI Skills, and MCP integrations for governed data querying, QA, investigation, reporting, and workflow automation.</p>
-              <p className="mt-3 text-sm leading-6 text-zinc-500">Databricks Genie · GCP · OAuth · PAT authentication · agentic workflows</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section id="expertise" className="border-y border-white/8 bg-white/[.015]"><div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="mb-10 max-w-4xl"><p className="kicker mb-4">Expertise</p><h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Capabilities first. Tools second.</h2></div><div className="grid gap-5 lg:grid-cols-2">{expertise.map(group => <article key={group.title} className="panel rounded-3xl p-7 sm:p-8"><div className="flex items-center justify-between gap-5"><h3 className="text-2xl font-semibold tracking-[-.03em]">{group.title}</h3><span className="text-xs font-semibold uppercase tracking-[.14em] text-[#b8f36b]">{group.role}</span></div><ul className="mt-6 grid gap-3 text-zinc-400 sm:grid-cols-2">{group.items.map(item => <li key={item} className="border-t border-white/8 pt-3 leading-6">{item}</li>)}</ul></article>)}</div><div className="mt-5 grid gap-5 lg:grid-cols-2"><div className="rounded-3xl border border-[#b8f36b]/20 bg-[#b8f36b]/[.06] p-7 sm:p-8"><p className="kicker mb-3">Data Quality & Governance</p><p className="leading-7 text-zinc-300">Measurement standards, analytics QA, metric definitions, access controls, privacy-aligned analytics, and cross-platform reconciliation.</p></div><div className="rounded-3xl border border-white/10 bg-[#0c0e12] p-7 sm:p-8"><p className="kicker mb-3">AI & Analytics Automation</p><p className="leading-7 text-zinc-300">Reusable AI Skills, MCP integrations, governed analytics querying, QA automation, and LLM-enabled operational workflows designed to reduce repetitive analyst work and improve self-service.</p><p className="mt-3 text-sm leading-6 text-zinc-500">Claude Enterprise · Claude Code · Databricks Genie · GCP · OAuth · agentic workflows</p></div></div></div></section>
 
-      <section id="about" className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
-        <div className="grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
-          <div>
-            <p className="kicker mb-4">About</p>
-            <h2 className="text-balance text-4xl font-semibold tracking-[-.045em] sm:text-5xl">The system between acquisition, analytics, conversion, and growth.</h2>
-          </div>
-          <div className="space-y-5">
-            <p className="text-lg leading-8 text-zinc-300">I work across measurement, analytics platforms, performance marketing, growth, and AI-enabled analytics. My job is to make the data trustworthy, connect the systems, and turn the result into better decisions.</p>
-            <p className="leading-8 text-zinc-400">My experience spans enterprise organizations, ecommerce brands, subscription businesses, and growth-stage companies, working across marketing, product, engineering, and data teams from implementation through optimization.</p>
-          </div>
-        </div>
-      </section>
+      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="rounded-[2rem] border border-[#b8f36b]/20 bg-[#b8f36b]/[.04] p-8 sm:p-10 lg:p-12"><p className="kicker mb-4">What I&apos;m Building Now</p><h2 className="max-w-4xl text-3xl font-semibold tracking-[-.04em] sm:text-5xl">AI on top of trusted analytics infrastructure.</h2><p className="mt-6 max-w-4xl text-lg leading-8 text-zinc-300">I&apos;m exploring how AI can make trusted analytics easier to access, validate, and use across teams without replacing the governance underneath it. Current work includes reusable AI Skills, MCP integrations, governed querying, analytics QA automation, and workflows that move teams from business questions to reliable answers faster.</p></div></section>
 
-      <section id="technology" className="border-y border-white/8 bg-white/[.015]">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
-          <div className="mb-10 max-w-3xl">
-            <p className="kicker mb-4">Technology Stack</p>
-            <h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Tools I use to build the system.</h2>
-          </div>
-          <div className="grid gap-3">
-            {technologyStack.map(([title, tools]) => (
-              <div key={title} className="panel grid gap-3 rounded-2xl p-5 sm:grid-cols-[220px_1fr] sm:items-center sm:p-6">
-                <h3 className="font-semibold">{title}</h3>
-                <p className="leading-7 text-zinc-400">{tools}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <section id="about" className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="grid gap-10 lg:grid-cols-[.8fr_1.2fr]"><div><p className="kicker mb-4">About</p><h2 className="text-balance text-4xl font-semibold tracking-[-.045em] sm:text-5xl">The system between acquisition, analytics, conversion, and growth.</h2></div><div className="space-y-5"><p className="text-lg leading-8 text-zinc-300">I work across measurement, analytics platforms, performance marketing, growth, and AI-enabled operations. My job is to make the data trustworthy, connect the systems, and turn the result into better decisions.</p><p className="leading-8 text-zinc-400">My experience spans enterprise organizations, ecommerce brands, subscription businesses, and growth-stage companies, working across marketing, product, engineering, and data teams from implementation through optimization.</p></div></div></section>
 
-      <section id="contact" className="px-6 py-20 lg:px-10 lg:py-24">
-        <div className="mx-auto max-w-7xl overflow-hidden rounded-[2rem] border border-[#b8f36b]/25 bg-[#b8f36b] p-8 text-[#090b0d] sm:p-12 lg:p-16">
-          <p className="text-xs font-bold uppercase tracking-[.16em]">Contact</p>
-          <h2 className="mt-5 max-w-4xl text-4xl font-semibold tracking-[-.05em] sm:text-6xl">Need trustworthy measurement, better growth visibility, or AI-enabled analytics workflows?</h2>
-          <p className="mt-5 max-w-3xl text-lg leading-8 text-[#20251b]">For roles, consulting work, or conversations about building systems that connect data to business outcomes.</p>
-          <div className="mt-9 flex flex-wrap gap-3">
-            <a href="mailto:kalifamshabazz@gmail.com" className="rounded-full bg-[#090b0d] px-6 py-3 text-sm font-semibold text-white">Email Me</a>
-            <a href="https://www.linkedin.com/in/kalifashabazz/" target="_blank" rel="noreferrer" className="rounded-full border border-black/30 px-6 py-3 text-sm font-semibold text-[#090b0d]">LinkedIn</a>
-          </div>
-        </div>
-      </section>
+      <section id="technology" className="border-y border-white/8 bg-white/[.015]"><div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="mb-10 max-w-3xl"><p className="kicker mb-4">Technology Stack</p><h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Tools I use to build the system.</h2></div><div className="grid gap-3">{technologyStack.map(([title,tools]) => <div key={title} className="panel grid gap-3 rounded-2xl p-5 sm:grid-cols-[220px_1fr] sm:items-center sm:p-6"><h3 className="font-semibold">{title}</h3><p className="leading-7 text-zinc-400">{tools}</p></div>)}</div></div></section>
+
+      <section id="contact" className="px-6 py-20 lg:px-10 lg:py-24"><div className="mx-auto max-w-7xl overflow-hidden rounded-[2rem] border border-[#b8f36b]/25 bg-[#b8f36b] p-8 text-[#090b0d] sm:p-12 lg:p-16"><p className="text-xs font-bold uppercase tracking-[.16em]">Contact</p><h2 className="mt-5 max-w-4xl text-4xl font-semibold tracking-[-.05em] sm:text-6xl">Need trustworthy measurement, better growth visibility, or AI-enabled analytics workflows?</h2><p className="mt-5 max-w-3xl text-lg leading-8 text-[#20251b]">For roles, consulting work, or conversations about building systems that connect data to business outcomes.</p><div className="mt-9 flex flex-wrap gap-3"><a href="mailto:kalifamshabazz@gmail.com" className="rounded-full bg-[#090b0d] px-6 py-3 text-sm font-semibold text-white">Email Me</a><a href="https://www.linkedin.com/in/kalifashabazz/" target="_blank" rel="noreferrer" className="rounded-full border border-black/30 px-6 py-3 text-sm font-semibold text-[#090b0d]">LinkedIn</a></div></div></section>
     </main>
   );
 }
