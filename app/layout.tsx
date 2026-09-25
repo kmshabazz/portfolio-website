@@ -4,8 +4,8 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
-const title = "Kalifa Shabazz | Analytics, Measurement, Growth & AI";
-const description = "Kalifa Shabazz is an analytics and measurement professional specializing in analytics platforms, measurement strategy, attribution, growth analytics, data quality, and AI-enabled analytics operations.";
+const title = "Kalifa Shabazz | Measurement Architecture, Data Instrumentation, Growth & AI";
+const description = "Kalifa Shabazz is a measurement architecture and growth analytics professional specializing in data instrumentation, event governance, attribution, data quality and observability, analytics platforms, and AI-enabled analytics operations.";
 const siteUrl = "https://kalifashabazz.com";
 
 export const metadata: Metadata = {
@@ -19,12 +19,16 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   keywords: [
     "Kalifa Shabazz",
-    "analytics platform",
+    "measurement architecture",
+    "data instrumentation",
+    "event governance",
+    "growth measurement",
     "measurement strategy",
     "marketing analytics",
     "growth analytics",
     "attribution",
-    "analytics governance",
+    "measurement governance",
+    "data observability",
     "analytics QA",
     "AI-enabled analytics",
     "MCP analytics workflows",
@@ -54,14 +58,18 @@ const personSchema = {
   "@type": "Person",
   name: "Kalifa Shabazz",
   url: siteUrl,
-  jobTitle: "Analytics Platform, Measurement & Growth Professional",
+  jobTitle: "Measurement Architecture, Data Instrumentation & Growth Professional",
   knowsAbout: [
-    "Analytics Platforms",
+    "Measurement Architecture",
+    "Data Instrumentation",
+    "Event Governance",
+    "Growth Measurement",
     "Measurement Strategy",
     "Marketing Analytics",
     "Growth Analytics",
     "Attribution",
-    "Analytics Governance",
+    "Measurement Governance",
+    "Data Observability",
     "Analytics Quality Assurance",
     "AI-Enabled Analytics Operations",
     "GA4",
