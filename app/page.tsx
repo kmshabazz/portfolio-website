@@ -15,10 +15,10 @@ const solveAreas = [
 ];
 
 const expertise = [
-  { title: "Global Analytics Platforms & Governance", role: "Enterprise", items: ["Measurement architecture, event taxonomy, and instrumentation governance", "GA4/GTM governance, conversion instrumentation, and analytics QA", "Attribution, incrementality-ready measurement, and funnel analysis", "Data quality, measurement observability, and metric definitions", "Privacy-forward measurement and cross-platform reconciliation"] },
-  { title: "AI Enablement & Automation", role: "Intelligent Operations", items: ["Meta Ads and Google Ads strategy", "Creative testing systems", "Paid acquisition optimization", "Verified conversion signals and measurement-led budget decisions", "Paid media effectiveness, attribution, and revenue analysis"] },
-  { title: "Measurement & Data Quality", role: "Trusted Data", items: ["Funnel strategy and CRO", "Shopify funnel analysis", "Offer architecture", "Lifecycle email and SMS", "Retention, experimentation, and revenue visibility"] },
-  { title: "Marketing Analytics & Growth", role: "Commercial Context", items: ["Reusable AI Skills and standardized analytics workflows", "MCP integrations and agentic workflows", "Governed analytics querying and AI-assisted QA", "BigQuery, Databricks, SQL, Dataform, and GCP", "IAM, OAuth, PAT-based access, and workflow automation"] }
+  { title: "Global Analytics Platforms & Governance", role: "Enterprise", items: ["Global web and app analytics operations", "Measurement standards, event architecture, and taxonomy", "Data access, consent management, and privacy controls", "Cross-platform quality assurance and reconciliation", "Stakeholder alignment across product, marketing, and engineering"] },
+  { title: "AI Enablement & Automation", role: "Intelligent Operations", items: ["AI agents and reusable AI Skills", "MCP integrations and agentic workflows", "Analytics investigation, QA, monitoring, and reporting automation", "Governed data access and human-in-the-loop controls", "Claude Enterprise, Claude Code, and Databricks Genie"] },
+  { title: "Measurement & Data Quality", role: "Trusted Data", items: ["GA4, GTM, and Adobe Analytics", "SQL validation across BigQuery and Databricks", "Attribution and conversion measurement", "Data quality investigation and reporting reliability", "Event instrumentation and analytics QA"] },
+  { title: "Marketing Analytics & Growth", role: "Commercial Context", items: ["Paid media attribution and conversion tracking", "Meta Ads, Google Ads, and CAPI", "Shopify and ecommerce funnel analytics", "Experimentation and customer journey analysis", "Lifecycle measurement and revenue visibility"] }
 ];
 
 const technologyStack = [
