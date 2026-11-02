@@ -4,8 +4,8 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
-const title = "Kalifa Shabazz | Measurement Architecture, Data Instrumentation, Growth & AI";
-const description = "Kalifa Shabazz is a measurement architecture and growth analytics professional specializing in data instrumentation, event governance, attribution, data quality and observability, analytics platforms, and AI-enabled analytics operations.";
+const title = "Kalifa Shabazz | Enterprise Analytics, AI Automation & Data Governance";
+const description = "Kalifa Shabazz specializes in global enterprise analytics platforms, AI agents and automation, data governance, measurement architecture, and data reliability.";
 const siteUrl = "https://kalifashabazz.com";
 
 export const metadata: Metadata = {
@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   keywords: [
     "Kalifa Shabazz",
+    "enterprise analytics platforms",
+    "global analytics operations",
+    "AI agents",
+    "AI enablement",
+    "data governance",
     "measurement architecture",
     "data instrumentation",
     "event governance",
@@ -58,7 +63,7 @@ const personSchema = {
   "@type": "Person",
   name: "Kalifa Shabazz",
   url: siteUrl,
-  jobTitle: "Measurement Architecture, Data Instrumentation & Growth Professional",
+  jobTitle: "Enterprise Analytics, AI Automation & Data Governance Professional",
   knowsAbout: [
     "Measurement Architecture",
     "Data Instrumentation",
