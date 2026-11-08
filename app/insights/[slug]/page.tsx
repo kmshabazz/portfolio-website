@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: insight.description,
     alternates: { canonical: url },
     authors: [{ name: "Kalifa Shabazz", url: "https://kalifashabazz.com" }],
-    openGraph: { title: insight.title, description: insight.description, url, type: "article", publishedTime: insight.date, authors: ["Kalifa Shabazz"] },
-    twitter: { card: "summary", title: insight.title, description: insight.description }
+    openGraph: { title: `${insight.title} | Kalifa Shabazz`, description: insight.description, url, type: "article", publishedTime: insight.date, authors: ["Kalifa Shabazz"] },
+    twitter: { card: "summary", title: `${insight.title} | Kalifa Shabazz`, description: insight.description }
   };
 }
 
