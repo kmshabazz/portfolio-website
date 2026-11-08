@@ -44,10 +44,31 @@ const certifications = [
   "Microsoft Office Specialist: Excel Associate"
 ];
 
+const siteUrl = "https://kalifashabazz.com";
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Kalifa Shabazz",
+  jobTitle: "Analytics, AI Enablement & Data Governance",
+  url: siteUrl,
+  sameAs: ["https://www.linkedin.com/in/kalifashabazz/", "https://www.kmandcompany.com"],
+  knowsAbout: ["Analytics", "Measurement", "Data Governance", "AI Enablement", "Marketing Analytics", "GA4", "BigQuery"]
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Kalifa Shabazz",
+  url: siteUrl
+};
+
 export default function Home() {
   return (
     <main>
-      <section className="grid-lines border-b border-white/8"><div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-10 lg:py-36"><div className="mb-7"><p className="text-sm font-bold uppercase tracking-[.16em] text-[#b8f36b] sm:text-base">Kalifa Shabazz</p><p className="mt-2 text-xs font-semibold uppercase tracking-[.14em] text-zinc-500 sm:text-sm">Global Analytics · AI Enablement · Data Governance</p></div><h1 className="text-balance max-w-6xl text-5xl font-semibold leading-[.98] tracking-[-.055em] sm:text-7xl lg:text-[6rem]">Enterprise Analytics · AI Automation · Data Governance</h1><p className="mt-9 max-w-4xl text-lg leading-8 text-zinc-300 sm:text-xl sm:leading-9">I help global organizations trust their data, automate analytics operations with AI, and make better business decisions.</p><p className="mt-6 max-w-5xl text-sm font-semibold leading-7 text-zinc-500 sm:text-base">Global analytics at Live Nation · AI agents & automation · Data governance · Measurement</p><div className="mt-10 flex flex-wrap gap-3"><a href="#work" className="rounded-full bg-[#b8f36b] px-6 py-3 text-sm font-semibold text-[#0a0b0d] hover:brightness-110">See My Work</a><a href="#expertise" className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold hover:bg-white/5">View Skills</a><a href="#contact" className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold hover:bg-white/5">Contact Me</a></div></div></section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <section className="grid-lines border-b border-white/8"><div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-10 lg:py-36"><div className="mb-7"><p className="text-sm font-bold uppercase tracking-[.16em] text-[#b8f36b] sm:text-base">Kalifa Shabazz</p><p className="mt-2 text-xs font-semibold uppercase tracking-[.14em] text-zinc-500 sm:text-sm">Global Analytics · AI Enablement · Data Governance</p></div><h1 className="text-balance max-w-6xl text-5xl font-semibold leading-[.98] tracking-[-.055em] sm:text-7xl lg:text-[6rem]">Enterprise Analytics · AI Automation · Data Governance</h1><p className="mt-9 max-w-4xl text-lg leading-8 text-zinc-300 sm:text-xl sm:leading-9">I help global organizations trust their data, automate analytics operations with AI, and make better business decisions.</p><p className="mt-5 max-w-4xl leading-7 text-zinc-400">Kalifa Shabazz is an analytics and AI governance professional who also builds growth and measurement systems for brands.</p><p className="mt-6 max-w-5xl text-sm font-semibold leading-7 text-zinc-500 sm:text-base">Global analytics at Live Nation · AI agents & automation · Data governance · Measurement</p><div className="mt-10 flex flex-wrap gap-3"><a href="#work" className="rounded-full bg-[#b8f36b] px-6 py-3 text-sm font-semibold text-[#0a0b0d] hover:brightness-110">See My Work</a><a href="#expertise" className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold hover:bg-white/5">View Skills</a><a href="#contact" className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold hover:bg-white/5">Contact Me</a></div></div></section>
       <section className="border-b border-white/8"><div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-white/8 px-6 lg:grid-cols-4 lg:px-10">{[["Global", "analytics across North America, EMEA, LATAM and APAC"],["AI", "agents and governed workflows for analytics operations"],["95%", "reduction in GA4 data discrepancies through validation"],["18+", "organizations supported across enterprise, agency and DTC"]].map(([value,label]) => <div key={value} className="min-h-40 px-5 py-8 first:pl-0 lg:min-h-48 lg:px-8 lg:py-10"><div className="text-3xl font-semibold tracking-[-.04em] sm:text-4xl">{value}</div><p className="mt-3 max-w-[16rem] text-sm leading-6 text-zinc-500">{label}</p></div>)}</div></section>
       <section id="enterprise" className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="mb-10 max-w-3xl"><p className="kicker mb-4">Enterprise Experience</p><h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Global enterprise experience.</h2></div><div className="grid gap-5 lg:grid-cols-3">{enterpriseExperience.map(item => <article key={item.company} className="panel rounded-3xl p-7 sm:p-8"><p className="text-sm font-semibold text-[#b8f36b]">{item.company}</p><h3 className="mt-5 text-2xl font-semibold tracking-[-.03em]">{item.title}</h3><p className="mt-5 leading-7 text-zinc-400">{item.copy}</p></article>)}</div></section>
       <section id="work" className="border-y border-white/8 bg-white/[.015]"><div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24"><div className="mb-10 max-w-4xl"><p className="kicker mb-4">Selected Work</p><h2 className="text-4xl font-semibold tracking-[-.045em] sm:text-5xl">Selected results and case studies.</h2><p className="mt-5 text-lg leading-8 text-zinc-400">Start with enterprise AI and analytics operations, then explore my measurement and growth work.</p></div><div className="mb-5 grid gap-5 lg:grid-cols-2">{caseStudies.slice(0,3).map(study => <CaseStudyCard key={study.slug} study={study} />)}</div><h3 className="mb-5 mt-12 text-xl font-semibold text-zinc-100">Marketing Measurement & Growth</h3><div className="grid gap-5 lg:grid-cols-2">{caseStudies.slice(3).map(study => <CaseStudyCard key={study.slug} study={study} />)}</div></div></section>

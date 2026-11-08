@@ -76,6 +76,21 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
         </div>
       </section>
 
+      {study.coverage && (
+        <section className="mx-auto max-w-6xl px-6 pb-20 lg:px-10">
+          <div className="grid gap-8 border-t border-white/10 pt-10 lg:grid-cols-[.55fr_1.45fr]">
+            <h2 className="text-2xl font-semibold tracking-[-.03em]">Covered by</h2>
+            <ul className="space-y-3 leading-7 text-zinc-300">
+              {study.coverage.map((item) => (
+                <li key={item.url}>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="underline decoration-white/25 underline-offset-4 hover:text-white">{item.outlet}, &ldquo;{item.headline}&rdquo;</a> <span className="text-zinc-500">({item.date})</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
       <section className="border-t border-white/8 px-6 py-20 lg:px-10">
         <div className="mx-auto flex max-w-6xl flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
