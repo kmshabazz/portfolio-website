@@ -4,8 +4,8 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
-const title = "Kalifa Shabazz | Enterprise Analytics, AI Automation & Data Governance";
-const description = "Kalifa Shabazz specializes in global enterprise analytics platforms, AI agents and automation, data governance, measurement architecture, and data reliability.";
+const title = "Kalifa Shabazz | Analytics, AI Enablement & Data Governance";
+const description = "Kalifa Shabazz works in analytics, measurement, AI enablement and data governance, and builds growth systems for brands.";
 const siteUrl = "https://kalifashabazz.com";
 
 export const metadata: Metadata = {
@@ -58,37 +58,10 @@ export const metadata: Metadata = {
   }
 };
 
-const personSchema = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Kalifa Shabazz",
-  url: siteUrl,
-  jobTitle: "Enterprise Analytics, AI Automation & Data Governance Professional",
-  knowsAbout: [
-    "Measurement Architecture",
-    "Data Instrumentation",
-    "Event Governance",
-    "Growth Measurement",
-    "Measurement Strategy",
-    "Marketing Analytics",
-    "Growth Analytics",
-    "Attribution",
-    "Measurement Governance",
-    "Data Observability",
-    "Analytics Quality Assurance",
-    "AI-Enabled Analytics Operations",
-    "GA4",
-    "Google Tag Manager",
-    "BigQuery",
-    "Databricks"
-  ]
-};
-
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
       <body>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
         <Header />
         {children}
         <Footer />
